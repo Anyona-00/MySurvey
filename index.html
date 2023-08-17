@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnMedia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">OnMedia Survey Form</h1>
+    <p id="description">Thank you for taking the time to join our community</p>
+<!-- using POST the data is sent in the body of the HTTP request, rather than in the URL itself as it allows for more secure and efficient transmission of sensitive information -->
+
+<!-- ACTION specifies the URL or web address to which the form data will be sent when it is submitted. -->
+    <form method="post" action="#" id="survey-form">
+      <fieldset>
+<h3>Personal details</h3>
+<!--FOR  By specifying the for attribute with the corresponding id value of the form element, clicking on the label will give focus to that particular form element or activate it. -->
+        <label for="name" id="name-label" class="full"
+          >Name<input type="text" id="name" placeholder="Full name" required class="zote"/>
+
+          <label for="email" id="email-label" class="full"
+          >Email<input type="email" id="email" placeholder="Email" required class="zote"/>
+
+          <label for="number" id="number-label" class="full"
+          >Age<input type="number" id="number" placeholder="Age " min="16" max="120" required class="zote"/>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <h3> How do you market our product</h3>
+        <select name="" id="dropdown">
+
+            <!--The importance of the VALUE attribute lies in its ability to provide a distinct and meaningful value associated with the selected option or entered data. This value is typically used by the server-side processing logic to identify and process the user's selection accurately -->
+<option value="">(select one)</option>
+<option value="1">Youtube</option>
+<option value="2">Facebook</option>
+<option value="3">Instagram</option>
+<option value="4">Pintrest</option>
+<option value="5">Word of mouth</option>
+<option value="6">Other</option>
+        </select>
+      </fieldset>
+     
+      <fieldset class="Age">
+   <h3> Your Target Market </h3>
+  <label for="Kids"  >Kids</label>  <input type="radio" name="market"id="Kids" >
+  <label for="Teenagers" > Teenagers</label> <input type="radio" name="market" id="Teenagers" >
+  <label for="Adults" > Adults</label> <input type="radio" name="market" id="Adults">
+        
+    
+      </fieldset>
+       
+
+      
+      
+
+
+     <fieldset class="product">
+       <h3>Most popular product</h3>
+
+    <label for="t-shirts"> T-shirts</label>
+    <input type="checkbox" value="t-shirts" id="t-shirts" >
+    <label for="business-cards" > Business Cards</label>
+    <input type="checkbox" value="business-cards" id="business-cards" >
+    <label for="custom-mugs" > Custom Mugs</label>
+    <input type="checkbox" value="custom-mugs" id="custom-mugs" >
+    <label for="custom-water-bottles"> Custom Water Bottles</label>
+    <input type="checkbox" value="custom-water-bottles" id="custom-water-bottles">
+    
+</fieldset>
+
+
+<fieldset>
+    <label for="comments" class="full">Any comments or suggestions?</label>
+    <textarea name="comments" id="comments" cols="30" rows="10"placeholder="Enter comment here"></textarea>
+</fieldset>
+ <input type="submit" value="Submit" />
+    </form>
+    
+  </body>
+</html>

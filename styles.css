@@ -1,0 +1,97 @@
+body{
+
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/20/21/34/flower-4217683_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-family: Tahoma;
+    font-size: 16px;
+
+}
+
+#title{
+    text-align: center;
+    margin: 1em auto;
+    color: #090922;
+}
+
+#description{
+    text-align: center;
+    margin: 1em auto;
+font-style: italic;
+}
+
+
+form{
+width: 80%;
+    background-color: #090922;
+    color: #f5f6f7;
+    padding-bottom: 5%;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #e2a625;
+  }
+
+  label, .full {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+
+  select{
+    margin: 10px 0 0 0;
+    width: 99%;
+    min-height: 2em;
+  }
+  
+  textarea{
+    margin: 10px 0 0 0;
+    width: 99%;
+    min-height: 2em;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #e2a625;
+    border-color: white;
+    min-width: 300px;
+   
+}
+
+label{
+  width: 80%;
+  display: inline-block;
+}
+
+
+
+  
+
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+.age{
+  display: flex;
+  
+
+}
+#male{
+  margin-left: 77%;
+}
+.zote{
+  display: block;
+  width: 30rem;
+}
+    
